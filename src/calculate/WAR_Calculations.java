@@ -196,7 +196,7 @@ public class WAR_Calculations extends WAR_Driver
 	
 	
 	/*
-	 * The League Adjustment stat is calculated here. This will add between 0 and 5 runs to a player’s value per season based on their league and plate appearances.
+	 * The League Adjustment stat is calculated here. This will add between 0 and 5 runs to a playerÂ’s value per season based on their league and plate appearances.
 	 */
 	private float leagueAdj(float lgBattingRuns, float lgBaseRunningRuns, float lgFieldingRuns, float lgPositionalAdjustment, int lgPA, int PA) 
 	{
@@ -306,7 +306,7 @@ public class WAR_Calculations extends WAR_Driver
 	
 	
 	/*
-	 * Creates a dynamic Runs Per Win (RPW) value based on the pitcher’s innings per game and pFIPR9 to include how pitchers directly influence their run environment based on how well they pitch. 
+	 * Creates a dynamic Runs Per Win (RPW) value based on the pitcherÂ’s innings per game and pFIPR9 to include how pitchers directly influence their run environment based on how well they pitch. 
 	 */
 	private float dynRunsPerWin(float IP, int g, float lgFIPR9, float pFIPR9)
 	{
