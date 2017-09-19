@@ -7,7 +7,7 @@ From FanGraphs.com:
 
 "Wins Above Replacement (WAR) is an attempt by the sabermetric baseball community to summarize a player’s total contributions to their team in one statistic. You should always use more than one metric at a time when evaluating players, but WAR is all-inclusive and provides a useful reference point for comparing players. WAR offers an estimate to answer the question, “If this player got injured and their team had to replace them with a freely available minor leaguer or a AAA player from their bench, how much value would the team be losing?” This value is expressed in a wins format, so we could say that Player X is worth +6.3 wins to their team while Player Y is only worth +3.5 wins, which means it is highly likely that Player X has been more valuable than Player Y."
 
-In other words, WAR is a measurement of a player's skill with respect to rest of the league. The higher the WAR, the better the player was that year. A WAR is determined based upon the performance of the rest of the league, so it would be more difficult to attain a higher WAR in the early 2000s as a power hitter rather than the 1920s. Since statistics like home runs were siginficantly up in those years, a player hitting 40 homeruns in that era meant way less than when Babe Ruth did it.
+In other words, WAR is a measurement of a player's skill with respect to rest of the league. The higher the WAR, the better the player was that year. A WAR is determined based upon the performance of the rest of the league, so it would be more difficult to attain a higher WAR in the early 2000s as a power hitter rather than the 1920s. Since statistics like home runs were siginficantly up in those years, a player hitting 40 homeruns in that era meant way less than when Babe Ruth did it. While there are multiple outlets who have separate rules and restrictions for what WAR should be, this program strictly follows the FanGraphs methodology, which is where all of my data comes from.
 
 ## Getting Started
 
@@ -33,3 +33,14 @@ FirstName LastName TeamName(no city) year Pos#1/Pos#2 Innings1/Innings2 wOBA PA 
 ```
 FirstName LastName TeamName(no city) Year SPorRP HR BB HBP K IFFB IP gs g gmLI(1 for SP)
 ```
+## Important Notes
+
+This project was made possible thanks to the incredibly large amount of data available on FanGraphs.com, and while I mentioned it earlier, this program's alogorithms are entirely based upon that site's formulas. While I plan to one day add in functionality for a field for Baseball Reference's version of WAR, for now, this program only functions under FanGraphs. That said, the biggest flaw with the program in its current form is due to the lack of a few FanGraphs statistics. As a result, you may see Basic pitching computations be off by a few whole numbers compared to what they have listed on the website. Advanced Pitching calculations are much more accurate, but it still may be off by a little bit. Hitters work just fine for both Basic and Advanced calculations; if it is off, it would only be by a few decimal points, since the values on FanGraphs are rounded (for instance, you may get 3.6578 when FanGraphs lists it as 3.7).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Author
+
+Jeremy Banks ~ 2017 CS Junior at Rutgers University
