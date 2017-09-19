@@ -1,1 +1,0 @@
-FirstName LastName team season battingRuns baseRunningRuns fieldingRuns positionalAdjustment leagueAdjustment replacementRuns runsPerWin 
