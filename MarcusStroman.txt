@@ -1,0 +1,4 @@
+Marcus Stroman Blue Jays 2016 SP 21 54 4 166 7 204.0 32 32 1.0
+Roy Halladay Phillies 2011 SP 10 35 4 220 31 233.66 32 32 1.0
+Roy Halladay Blue Jays 2002 SP 10 62 7 168 19 239.33 34 34 1.0
+Craig Kimbrel Braves 2012 RP 3 14 2 116 1 62.66 0 63 1.76
